@@ -20,7 +20,6 @@ Create a new folder with the artist name in your music videos (root) folder. At 
 - root\Artist 1\folder.jpg
 - root\Artist 1\banner.jpg
 - root\Artist 1\backdrop1.jpg
-You can have multiple backdrops. Use this naming convention so Jellyfin automatically uses the images.
 #### Format your videos
 **Make sure your video files are mp4 only.** If the format is not mp4 convert them quickly by following my converting guide below. Rename all your mp4 videos to have song name only (this is where powertoys can be handy). If you have multiple versions of a song follow Jellyfin naming conventions.
 - root\Artist 1\song 1.mp4
