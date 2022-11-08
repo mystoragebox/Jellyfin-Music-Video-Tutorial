@@ -73,3 +73,4 @@ Convert M4V with no conversion of video or audio
 A common problem I encountered was the audio track could not be contained in mp4, use the following to convert to 320kb audio.
 > for /R %f IN (*.mkv) DO ffmpeg -i "%f" -acodec mp2 -b:a 320k  -vcodec copy "%~nf.mp4"
 
+I do all my converting on a Windows 10 machine. You will need to find another way to convert if you are using Linux or Mac. Like I said this is not a comprehensive list, it is only what I have used so far. I hope this guide helps you maintain your library and if you have any tips please let me know.
