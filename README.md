@@ -64,10 +64,10 @@ Go back to Jellyfin and refresh the Music Videos library and your artist folders
 ## Converting Files
 If you have video files that are not mp4's you will need to convert them. **You will need ffmpeg and command line for this next part.** I don't have a comprehensive list of files but I will show a few common types. Have all the files you need to convert in one folder. Click in the address bar and type cmd to bring up command prompt. I have some commands below I use most.
 
-Convert MKV
+Convert MKV with no conversion of video or audio
 > for /R %f IN (*.mkv) DO ffmpeg -i "%f" -c copy "%~nf.mp4"
 
-Convert M4V
+Convert M4V with no conversion of video or audio
 > for /R %f IN (*.m4v) DO ffmpeg -i "%f" -c copy "%~nf.mp4"
 
 A common problem I encountered was the audio track could not be contained in mp4, use the following to convert to 320kb audio.
