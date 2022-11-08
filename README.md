@@ -16,7 +16,7 @@ Thats it for setting Jellyfin.
 ## File and Folder Preperation
 I have tested two ways of storing the files. The first way is to make Artist folders and the second is to make Various Artists folders. I'll start with the Artists folders. When setup correctly songs in artist folders can connect to your music collection.
 ### Adding an Artist folder
-Create a new folder with the artist name in your music videos (root) folder. At this time you can save artist images and backgrounds the artist folder. These images are the files I found work with music videos.
+Create a new folder with the artist name in your music videos (root) folder. At this time you can save artist images and backgrounds to the artist folder. These images are the files I found work with music videos.
 - root\Artist 1
 - root\Artist 1\logo.png
 - root\Artist 1\folder.jpg
@@ -25,14 +25,14 @@ Create a new folder with the artist name in your music videos (root) folder. At 
 
 
 #### Format your videos
-**Make sure your video files are mp4 only.** If the format is not mp4 convert them quickly by following my converting guide below. Rename all your mp4 videos to have song name only (this is where powertoys can be handy). If you have multiple versions of a song follow Jellyfin naming conventions.
+**Make sure your video files are mp4 only.** If the format is not mp4 convert them quickly by following my converting guide below. Rename all your mp4 videos to have the song name only (this is where powertoys can be handy). If you have multiple versions of a song follow Jellyfin naming conventions.
 - root\Artist 1\song 1.mp4
 - root\Artist 1\song 1 - Live.mp4
 - root\Artist 1\song 2.mp4
 
-Then drag all of the mp4's into Musicbee and fix the title of the songs if required. Select all and edit the metadata. Most of the metadata fields do not show on Jellyfin, some wont even get saved to mp4. The following fields will work;
+Then drag all of the mp4's into Musicbee and fix the song titles if required. Select all and edit the metadata. Most of the metadata fields do not show on Jellyfin, some wont even get saved to mp4. The following fields will work;
 1. Artist
-2. Album (if you have the album the song came from enter it here)
+2. Album (copy the album name exactly from your music collection)
 3. Year
 4. Genre
 
@@ -52,7 +52,7 @@ Create a new folder with whatever name you like in your Music Videos (root) fold
 - root\J Music\Artist - Song 1 - Live.mp4
 - root\J Music\Artist - Song 2.mp4
 
-Then drag all of the mp4's into Musicbee. Most of the metadata fields do not show on Jellyfin, some wont even get saved to mp4. The following fields will work;
+Drag all of the mp4's into Musicbee. Most of the metadata fields do not show on Jellyfin, some wont even get saved to mp4. The following fields will work;
 1. Title
 2. Artist
 3. Album (Type the Artist here unless you have a corresponding CD in your collection)
@@ -62,7 +62,7 @@ Then drag all of the mp4's into Musicbee. Most of the metadata fields do not sho
 Go back to Jellyfin and refresh the Music Videos library and your artist folders will show with correct images. You will see the song name with the artist below, clicking into the songs page you can click onto the artist or genre, they are linked to your music.
 
 ## Converting Files
-If you have video files that are not mp4's you will need to convert them. I don't have a comprehensive list of files but I will show a few common types. Have all the files you need to convert in one folder. Click in the address bar and type cmd to bring up command prompt. I have some commands below I use most.
+If you have video files that are not mp4's you will need to convert them. **You will need ffmpeg and command line for this next part.** I don't have a comprehensive list of files but I will show a few common types. Have all the files you need to convert in one folder. Click in the address bar and type cmd to bring up command prompt. I have some commands below I use most.
 
 Convert MKV
 > for /R %f IN (*.mkv) DO ffmpeg -i "%f" -c copy "%~nf.mp4"
