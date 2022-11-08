@@ -15,14 +15,14 @@ Thats it for setting Jellyfin.
 I have tested two ways of storing the files. The first way is to make Artist folders and the second is to make Various Artists folders. I'll start with the Artists folders. When setup correctly songs in artist folders can connect to your music collection.
 ### Adding an Artist folder
 Create a new folder with the artist name in your music videos (root) folder. At this time you can save artist images and backgrounds the artist folder. These images are the files I found work with music videos.
-root\Artist 1
-root\Artist 1\logo.png
-root\Artist 1\folder.jpg
-root\Artist 1\banner.jpg
-root\Artist 1\backdrop1.jpg
+- root\Artist 1
+- root\Artist 1\logo.png
+- root\Artist 1\folder.jpg
+- root\Artist 1\banner.jpg
+- root\Artist 1\backdrop1.jpg
 You can have multiple backdrops. Use this naming convention so Jellyfin automatically uses the images.
 #### Format your videos
 **Make sure your video files are mp4 only.** If the format is not mp4 convert them quickly by following my converting guide below. Rename all your mp4 videos to have song name only (this is where powertoys can be handy). If you have multiple versions of a song follow Jellyfin naming conventions.
-root\Artist 1\song 1.mp4
-root\Artist 1\song 1 - Live.mp4
-root\Artist 1\song 2.mp4
+- root\Artist 1\song 1.mp4
+- root\Artist 1\song 1 - Live.mp4
+- root\Artist 1\song 2.mp4
