@@ -60,3 +60,16 @@ Then drag all of the mp4's into Musicbee. Most of the metadata fields do not sho
 5. Genre
 
 Go back to Jellyfin and refresh the Music Videos library and your artist folders will show with correct images. You will see the song name with the artist below, clicking into the songs page you can click onto the artist or genre, they are linked to your music.
+
+## Converting Files
+If you have video files that are not mp4's you will need to convert them. I don't have a comprehensive list of files but I will show a few common types. Have all the files you need to convert in one folder. Click in the address bar and type cmd to bring up command prompt. I have some commands below I use most.
+
+Convert MKV
+> for /R %f IN (*.mkv) DO ffmpeg -i "%f" -c copy "%~nf.mp4"
+
+Convert M4V
+> for /R %f IN (*.m4v) DO ffmpeg -i "%f" -c copy "%~nf.mp4"
+
+A common problem I encountered was the audio track could not be contained in mp4, use the following to convert to 320kb audio.
+> for /R %f IN (*.mkv) DO ffmpeg -i "%f" -acodec mp2 -b:a 320k  -vcodec copy "%~nf.mp4"
+
