@@ -4,7 +4,7 @@ Before you begin this is a slow process. This does not use any Jellyfin plugins.
 - ffmpeg
 - Powertoys (optional, it makes changing many filenames really easy)
 ## Jellyfin Library Settings
-You will only need to do this step once. I will only mention the settings that need to change for this to work, all other settings are at your discretion. Open Jellyfin and add a new media library;
+You will only need to do this step once. I will mention the settings that need to change for this to work, all other settings are at your discretion. Open Jellyfin and add a new media library;
 1. Change the content type to ***Music Videos***
 2. Select ***Prefer embedded titles over filenames***
 3. Unselect all ***Metadata downloaders (Music Videos)***
