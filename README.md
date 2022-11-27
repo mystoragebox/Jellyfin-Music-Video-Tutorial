@@ -68,3 +68,10 @@ A common problem I encountered was the audio track could not be contained in mp4
 > for /R %f IN (*.mkv) DO ffmpeg -i "%f" -acodec mp2 -b:a 320k  -vcodec copy "%~nf.mp4"
 
 I do all my work on a Windows 10 machine. You will need to find another way to convert if you are using Linux or Mac. I hope this guide helps you maintain your library and if you have any tips please let me know.
+# Screenshots
+![JF01](https://user-images.githubusercontent.com/71749877/204130013-1eca7df7-9569-4497-b1a4-ace95c06231c.JPG)
+![JF02](https://user-images.githubusercontent.com/71749877/204130014-16b07d47-0f10-4d36-88ae-a9ae5a4824f0.JPG)
+![JF03](https://user-images.githubusercontent.com/71749877/204130015-6aec7faa-dbb8-4766-88b7-46054e9371b2.JPG)
+![JF04](https://user-images.githubusercontent.com/71749877/204130016-9ff857b2-643e-4592-a713-a1f710b01935.JPG)
+![JF05](https://user-images.githubusercontent.com/71749877/204130017-9c08799e-6fba-44cc-85e4-53ba5d1796c5.JPG)
+![JF06](https://user-images.githubusercontent.com/71749877/204130018-118a1a4a-c7aa-48de-9ffa-7ca778308fb6.JPG)
