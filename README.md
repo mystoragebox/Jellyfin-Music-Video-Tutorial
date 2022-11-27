@@ -9,7 +9,7 @@ You will only need to do this step once. I will mention the settings that need t
 2. Select ***Prefer embedded titles over filenames***
 3. Unselect all ***Metadata downloaders (Music Videos)***
 4. Select **Never** from ***Automatically refresh metadata from the internet***
-5. Unselect ***Metadata Savers*** (you wont need it)
+5. Unselect ***Metadata Savers*** (you wont need it unless you want to input more data afterwards)
 6. Select ***Save artwork into media folders*** (If you want to have sidecar files)
 
 Thats it for setting Jellyfin.
