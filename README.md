@@ -13,7 +13,7 @@ You will only need to do this step once. I will mention the settings that need t
 6. Select ***Save artwork into media folders*** (If you want to have sidecar files)
 
 Thats it for setting Jellyfin.
-## Folder Hierarchy and folder files
+## Folder Hierarchy and Folder Files
 This follows normal Jellyfin music folder hierarchy without the nested album folders. You can use folder images to make Jellyfin look better and I've shown the best images to use below.
 ### Artists Folder
 - root\Artist 1
