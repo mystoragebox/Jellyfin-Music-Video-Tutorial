@@ -17,15 +17,13 @@ Thats it for setting Jellyfin.
 I have two ways of storing files. The first way is to make Artist folders and the second is to make Various Artists folders. I'll start with the Artists folders. When setup correctly songs in artist folders can connect to your music collection.
 ## Folder Hierarchy and folder files
 This follows normal Jellyfin music folder hierarchy without the nested album folders. You can use folder images to make Jellyfin look better and I've shown the best images to use below.
-### Adding an Artist or Various folder
-Create a new folder with the artist name in your music videos (root) folder. At this time you can save artist images and backgrounds to the artist folder. These images are the files I found work with music videos.
-####Artists Folder
+### Artists Folder
 - root\Artist 1
 - root\Artist 1\logo.png
 - root\Artist 1\folder.jpg
 - root\Artist 1\banner.jpg
 - root\Artist 1\backdrop1.jpg
-#### Various Artist Folders
+### Various Artist Folders
 You can name this folder whatever you like ie; Various Artists, Japanese Music, 1980s Music etc.
 - root\Random Music
 - root\Random Music\logo.png
@@ -33,26 +31,26 @@ You can name this folder whatever you like ie; Various Artists, Japanese Music, 
 - root\Random Music\banner.jpg
 - root\Random Music\backdrop1.jpg
 
-### Naming your Videos
+## Naming your Videos
 **Make sure your video files are mp4 only.** If the format is not mp4 convert them quickly by following my converting guide below. If you have multiple versions of a song follow Jellyfin naming conventions.
-#### Artists Folders
+### Artists Folders
 - root\Artist 1\song 1.mp4
 - root\Artist 1\song 1 - Live.mp4
 - root\Artist 1\song 2.mp4
-#### Various Folders
+### Various Folders
 - root\Random Music\Artist - Song 1.mp4
 - root\Random Music\Artist - Song 1 - Live.mp4
 - root\Random Music\Artist - Song 2.mp4
 
-### Add Metadata to Videos
+## Add Metadata to Videos
 Add the mp4's into Musicbee and edit the song titles if required. 
-#### Artist Metadata
+### Artist Metadata
 Select all and edit the metadata (Musicbee or editor of your choice). Most of the metadata fields do not show in Jellyfin although the following fields will work;
 1. Artist
 2. Album (copy the album name exactly from your music collection)
 3. Year
 4. Genre
-#### Various Metadata
+### Various Metadata
 You will have to edit each video individually because they will be all different artists. Type the Artist in the album field as well as the Artist field, this ensures the artist text will show under the video thumbnail in Jellyfin.
 1. Artist
 2. Album (Type the Artist here unless you have a corresponding CD in your collection)
