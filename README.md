@@ -22,7 +22,7 @@ This follows normal Jellyfin music folder hierarchy without the nested album fol
 - root\Artist 1\banner.jpg
 - root\Artist 1\backdrop1.jpg
 ### Various Artist Folders
-You can name this folder whatever you like ie; Various Artists, Japanese Music, 1980s Music etc.
+You can name this folder whatever you like ie; Various Artists, Japanese Music, 1980s Music etc. Root folder is your music videos folder.
 - root\Random Music
 - root\Random Music\logo.png
 - root\Random Music\folder.jpg
