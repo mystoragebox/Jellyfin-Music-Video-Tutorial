@@ -14,7 +14,7 @@ You will only need to do this step once. I will mention the settings that need t
 
 Thats it for setting Jellyfin.
 ## Folder Hierarchy and Folder Files
-This follows normal Jellyfin music folder hierarchy without the nested album folders. You can use folder images to make Jellyfin look better and I've shown the best images to use below.
+This follows normal Jellyfin music folder hierarchy without the nested album folders. You can use folder images to make Jellyfin look better and I've shown the best images to use below. Root folder is your music videos folder.
 ### Artists Folder
 - root\Artist 1
 - root\Artist 1\logo.png
@@ -22,7 +22,7 @@ This follows normal Jellyfin music folder hierarchy without the nested album fol
 - root\Artist 1\banner.jpg
 - root\Artist 1\backdrop1.jpg
 ### Various Artist Folders
-You can name this folder whatever you like ie; Various Artists, Japanese Music, 1980s Music etc. Root folder is your music videos folder.
+You can name this folder whatever you like ie; Various Artists, Japanese Music, 1980s Music etc.
 - root\Random Music
 - root\Random Music\logo.png
 - root\Random Music\folder.jpg
