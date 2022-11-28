@@ -1,3 +1,4 @@
+
 # Jellyfin-Music-Video-Tutorial
 Before you begin this is a slow process. This does not use any Jellyfin plugins. Hopefully in the future Jellyfin can manage this itself but for now I will show you the way for manual input, organisation of the files as well as setup of your Music Video library. When Jellyfin can update the library automatically you will be ready with the file structure. For now you will need this software to help you organise:
 - Musicbee (or any other music sorting program that can edit MP4 meta)
@@ -75,9 +76,13 @@ I do all my work on a Windows 10 machine. You will need to find another way to c
 ![JF02](https://user-images.githubusercontent.com/71749877/204130014-16b07d47-0f10-4d36-88ae-a9ae5a4824f0.JPG)
 
 ![JF03](https://user-images.githubusercontent.com/71749877/204130015-6aec7faa-dbb8-4766-88b7-46054e9371b2.JPG)
+
+![Screenshot_20221128-104010](https://user-images.githubusercontent.com/71749877/204189824-f6b63c54-4588-4288-bfd4-53f07c541c90.png)
 ## Various Folder
 ![JF04](https://user-images.githubusercontent.com/71749877/204130016-9ff857b2-643e-4592-a713-a1f710b01935.JPG)
 
 ![JF05](https://user-images.githubusercontent.com/71749877/204130017-9c08799e-6fba-44cc-85e4-53ba5d1796c5.JPG)
 
 ![JF06](https://user-images.githubusercontent.com/71749877/204130018-118a1a4a-c7aa-48de-9ffa-7ca778308fb6.JPG)
+
+![Screenshot_20221128-104048](https://user-images.githubusercontent.com/71749877/204189827-a627af31-5bbf-4e34-b5d9-d070ffd2e392.png)
