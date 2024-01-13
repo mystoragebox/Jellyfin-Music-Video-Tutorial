@@ -1,4 +1,4 @@
-
+> **I have moved this tutorial, simplified it and added other tutorials [Here](https://github.com/mystoragebox/Folder_Structure).**
 # Jellyfin-Music-Video-Tutorial
 Before you begin this is a slow process. This does not use any Jellyfin plugins. Hopefully in the future Jellyfin can manage this itself but for now I will show you the way for manual input, organisation of the files as well as setup of your Music Video library. When Jellyfin can update the library automatically you will be ready with the file structure. For now you will need this software to help you organise:
 - Musicbee (or any other music sorting program that can edit MP4 meta)
